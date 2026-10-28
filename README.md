@@ -65,3 +65,9 @@ The following features can be tested in the application:
 ## Environment Configuration
 
 Create a `.env` file inside the backend folder and configure the required environment variables using `.env.example` as a reference. Use a valid MongoDB Atlas connection string to connect to the database. Do not publish database credentials on GitHub.
+## Future Improvements
+
+- Add user authentication and login functionality.
+- Improve application search and filtering.
+- Add dashboard charts to visualize application progress.
+- Implement email reminders for upcoming interviews.
