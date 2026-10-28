@@ -363,17 +363,22 @@ textarea {
   gap: 14px;
 }
 
+
 .application-card {
-  padding: 17px;
+  padding: 19px;
   border: 1px solid #ebebf3;
-  border-radius: 13px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  background: #ffffff;
+  transition: transform 0.2s ease, border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .application-card:hover {
-  border-color: #d9d4fb;
-  box-shadow: 0 5px 15px #25294d08;
+  transform: translateY(-3px);
+  border-color: #c9c1ff;
+  box-shadow: 0 9px 24px rgba(83, 68, 190, 0.10);
 }
+
 
 .application-top {
   display: flex;
