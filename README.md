@@ -49,3 +49,19 @@ Actual database credentials are stored in a local `.env` file and must not be up
 
 ## Author
 Developed as a MERN Stack academic project.
+
+## Testing the Application
+
+The following features can be tested in the application:
+
+1. View job applications on the dashboard.
+2. Add a new job application.
+3. Edit an existing application.
+4. Delete an application.
+5. Update the application status.
+6. Check status history.
+7. Track follow-up dates and overdue applications.
+
+## Environment Configuration
+
+Create a `.env` file inside the backend folder and configure the required environment variables using `.env.example` as a reference. Use a valid MongoDB Atlas connection string to connect to the database. Do not publish database credentials on GitHub.
