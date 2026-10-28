@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/applications";
+const API = "https://jobapplicationtracker-7wp3.onrender.com/api/applications";
 
 const today = () => {
   const d = new Date();
